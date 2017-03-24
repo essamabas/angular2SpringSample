@@ -1,10 +1,10 @@
-import { FrontendPage } from './app.po';
+import { Ng2AdminLtePage } from './app.po';
 
-describe('frontend App', function() {
-  let page: FrontendPage;
+describe('ng2-admin-lte App', function() {
+  let page: Ng2AdminLtePage;
 
   beforeEach(() => {
-    page = new FrontendPage();
+    page = new Ng2AdminLtePage();
   });
 
   it('should display message saying app works', () => {
