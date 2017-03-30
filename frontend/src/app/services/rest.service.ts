@@ -6,15 +6,17 @@ import { Configuration } from '../app.constants';
 
 @Injectable()
 export class RestService {
-    public modelName: string;
+    //public modelName: string;
     private headers: Headers;
 
     // cache data
     public lastGetAll: Array<any>;
     public lastGet: any;
 
-    constructor(private http: Http, private config: Configuration) {
-        this.modelName = 'to-configure';
+    constructor(private http: Http, private config: Configuration,
+    private modelName: string) {
+
+        //this.modelName = 'to-configure';
 
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');

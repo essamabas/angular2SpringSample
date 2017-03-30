@@ -23,11 +23,7 @@ export class LoginComponent implements OnInit {
 
   private login() {
 
-    // test les champs en js
-
-    // envoyer les champs a php
-
-    // si retour positif, log le user
+    // Check Login Credentials here
     if ( 1 === 1 ) {
 
       let user1 = new User( {
